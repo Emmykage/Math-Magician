@@ -7,7 +7,6 @@ class Calculator extends React.PureComponent {
     this.state = {
       total: 0,
       next: null,
-      operation: null,
 
     };
     this.updateInput = this.updateInput.bind(this);
