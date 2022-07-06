@@ -6,20 +6,16 @@ import Calculator from './components/calculator';
 import Home from './components/Home';
 import Quotes from './components/Quotes';
 
-class App extends React.PureComponent {
-  render() {
-    return (
-      <>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="calculator" element={<Calculator />} />
-          <Route path="quotes" element={<Quotes />} />
-        </Routes>
+const App = () => (
+  <>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="calculator" element={<Calculator />} />
+      <Route path="quotes" element={<Quotes />} />
+    </Routes>
 
-      </>
+  </>
 
-    );
-  }
-}
+);
 
 export default App;

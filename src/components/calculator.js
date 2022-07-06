@@ -14,7 +14,7 @@ function Calculator() {
         <Header />
 
         <div className="Calc">
-          <div className='leftSide'><h1>Lets Do Some Maths</h1></div>
+          <div className="leftSide"><h1>Lets Do Some Maths</h1></div>
           <div className="calculator">
             <div className="display">
               <span>{ state.next || state.total || '0' }</span>
