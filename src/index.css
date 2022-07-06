@@ -26,6 +26,62 @@ code {
     monospace;
 }
 
-.Calc {
-  background-color: blue;
+
+header{
+  width: 100%;
+  background-color: #5f9ea0;
+  color: azure;
+}
+header .logo{
+  font-size: 97px;
+  color: aliceblue;
+  text-decoration: none;
+}
+nav{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+}
+nav h1{
+  font-size: 48px;
+  color: #A0615F;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  margin: auto 12px;
+  border-right: 2px solid #000;
+  padding-right: 12px;
+
+}
+li:last-child{
+  border-right: none;
+}
+li a{
+  text-decoration: none;
+  color:aliceblue;
+}
+.page-layout{
+  width: 80%;
+  margin: auto;
+}
+.page-layout h1{
+  margin: 64px auto;
+  font-size: 48px;
+}
+.quote {
+  margin-top: 150px;
+}
+.quote p{
+  padding: 19px;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+
 }
