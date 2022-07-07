@@ -17,3 +17,4 @@ const Quotes = () => (
   </main>
 );
 export default Quotes;
+ 
