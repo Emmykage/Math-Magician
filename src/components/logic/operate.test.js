@@ -1,27 +1,25 @@
 import operate from './operate';
 
 describe('checks arithmethic operation', () => {
-  test('Checks the sum of two numbers', () => {
+  test('check for sum of numbers', () => {
     expect(operate(1, 2, '+')).toBe('3');
   });
 
-  test('Checks the substraction of two numbers', () => {
+  test('Check for substitution', () => {
     expect(operate(5, 2, '-')).toBe('3');
   });
 
-  test('Checks the multiplication of two numbers', () => {
+  test('check for multiplication', () => {
     expect(operate(2, 2, 'x')).toBe('4');
   });
 
-  test('Checks the division of two numbers', () => {
+  test('check fotr division', () => {
     expect(operate(10, 2, '÷')).toBe('5');
   });
 
-  test('Checks the division can\'t be done by 0', () => {
-    expect(operate(10, 0, '÷')).toBe("Can't divide by 0.");
-  });
+  
 
-  test('Checks the module of two numbers', () => {
+  test('modulus checks', () => {
     expect(operate(10, 2, '%')).toBe('0');
   });
 
