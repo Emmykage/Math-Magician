@@ -57,6 +57,230 @@ exports[`Test components About test 1`] = `
 </main>
 `;
 
+exports[`Test components Calculator render test 1`] = `
+<div
+  className="container"
+>
+  <header>
+    <nav>
+      <a
+        className="logo"
+        href="/"
+        onClick={[Function]}
+      >
+        <h1>
+          Maths Magiciacian
+        </h1>
+      </a>
+      <ul>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quotes"
+            onClick={[Function]}
+          >
+            Quotes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="Calc"
+  >
+    <div
+      className="leftSide"
+    >
+      <h1>
+        Lets Do Some Maths
+      </h1>
+    </div>
+    <div
+      className="calculator"
+    >
+      <div
+        className="display"
+      >
+        <span>
+          0
+        </span>
+      </div>
+      <div
+        className="operators"
+      >
+        <button
+          className="btn ac"
+          id="AC"
+          onClick={[Function]}
+          type="button"
+        >
+          A/C
+        </button>
+        <button
+          className="btn addminus"
+          id="+/-"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="btn percentage"
+          id="%"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="btn division operand"
+          id="÷"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          className="btn multiply operand"
+          id="x"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+        <button
+          className="btn add operand"
+          id="+"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+        <button
+          className="btn minus operand"
+          id="-"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+        <button
+          className="btn one"
+          id="1"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="btn two"
+          id="2"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="btn three"
+          id="3"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="btn four"
+          id="4"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="btn five"
+          id="5"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="btn six"
+          id="6"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="btn seven"
+          id="7"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="btn eight"
+          id="8"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="btn nine"
+          id="9"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="btn zerot"
+          id="0"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="btn dot"
+          id="."
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="btn equal operand"
+          id="="
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Test components Calculator test 1`] = `
 <div
   className="container"
@@ -281,6 +505,166 @@ exports[`Test components Calculator test 1`] = `
 </div>
 `;
 
+exports[`Test components Header render test 1`] = `
+<header>
+  <nav>
+    <a
+      className="logo"
+      href="/"
+      onClick={[Function]}
+    >
+      <h1>
+        Maths Magiciacian
+      </h1>
+    </a>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
+
+exports[`Test components Home render test 1`] = `
+<main
+  className="container"
+>
+  <header>
+    <nav>
+      <a
+        className="logo"
+        href="/"
+        onClick={[Function]}
+      >
+        <h1>
+          Maths Magiciacian
+        </h1>
+      </a>
+      <ul>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quotes"
+            onClick={[Function]}
+          >
+            Quotes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="page-layout"
+  >
+    <h1>
+      Welcome to Our page!
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in susc ipit massa vehicula eu.”
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetu r id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc ero s, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.”
+    </p>
+  </div>
+</main>
+`;
+
+exports[`Test components Home test 1`] = `
+<main
+  className="container"
+>
+  <header>
+    <nav>
+      <a
+        className="logo"
+        href="/"
+        onClick={[Function]}
+      >
+        <h1>
+          Maths Magiciacian
+        </h1>
+      </a>
+      <ul>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quotes"
+            onClick={[Function]}
+          >
+            Quotes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="page-layout"
+  >
+    <h1>
+      Welcome to Our page!
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in susc ipit massa vehicula eu.”
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetu r id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc ero s, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.”
+    </p>
+  </div>
+</main>
+`;
+
 exports[`Test components Navbar test 1`] = `
 <header>
   <nav>
@@ -321,4 +705,61 @@ exports[`Test components Navbar test 1`] = `
     </ul>
   </nav>
 </header>
+`;
+
+exports[`Test components Quotes render test 1`] = `
+<main
+  className="container"
+>
+  <header>
+    <nav>
+      <a
+        className="logo"
+        href="/"
+        onClick={[Function]}
+      >
+        <h1>
+          Maths Magiciacian
+        </h1>
+      </a>
+      <ul>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quotes"
+            onClick={[Function]}
+          >
+            Quotes
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="page-layout"
+  >
+    <div
+      className="quote"
+    >
+      <p>
+        Mathematics is not about numbers, equation, computations and algorithm. its about understanding.-- Willaim paul thursdton
+      </p>
+    </div>
+  </div>
+</main>
 `;
