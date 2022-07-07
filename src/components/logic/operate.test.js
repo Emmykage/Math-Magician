@@ -17,8 +17,6 @@ describe('checks arithmethic operation', () => {
     expect(operate(10, 2, '÷')).toBe('5');
   });
 
-  
-
   test('modulus checks', () => {
     expect(operate(10, 2, '%')).toBe('0');
   });

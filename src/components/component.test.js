@@ -6,25 +6,24 @@ import Home from './Home';
 import Header from './Header';
 import Quotes from './Quotes';
 
-
 describe('Test components', () => {
   it('Calculator render test', () => {
     const tree = renderer.create(
-    <Router>
-         <Calculator />
+      <Router>
+        <Calculator />
 
-    </Router>
-   ).toJSON();
+      </Router>,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('Home render test', () => {
     const tree = renderer.create(
-    <Router>
-       <Home />
+      <Router>
+        <Home />
 
-    </Router>
-   ).toJSON();
+      </Router>,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
   it('Header render test', () => {
@@ -34,15 +33,13 @@ describe('Test components', () => {
       </Router>,
     ).toJSON();
     expect(tree).toMatchSnapshot();
-    
   });
   it('Quotes render test', () => {
     const tree = renderer.create(
-        <Router>
-            < Quotes />
-        </Router>
-       ).toJSON();
+      <Router>
+        <Quotes />
+      </Router>,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
-  
 });
