@@ -49,7 +49,8 @@ To clone this project:
 - npm reun start
 
 ### Deployment
-- Run the project in your local browser to view the index.html
+- [Netlify](...)
+-[Heroku](https://mathmagician-emmykage.herokuapp.com/)
 
 
 ## Authors
