@@ -50,8 +50,7 @@ To clone this project:
 
 ### Deployment
 - [Netlify](...)
-- 
--[Heroku](https://mathmagician-emmykage.herokuapp.com/)
+- [Heroku](https://mathmagician-emmykage.herokuapp.com/)
 
 
 ## Authors
